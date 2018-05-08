@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="190" height="48" tilewidth="15" tileheight="15" nextobjectid="1">
+ <tileset firstgid="1" name="SMB3-Tiles" tilewidth="15" tileheight="15" spacing="2" tilecount="841" columns="29">
+  <image source="SMB3-Tiles(1).png" width="492" height="492"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="QBlock"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="QBlock"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="QBlock"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="QBlock"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="type" value="highSlope"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="type" value="lowSlope"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="type" value="midSlope"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="type" value="ground"/>
+   </properties>
+  </tile>
+  <tile id="551">
+   <properties>
+    <property name="type" value="goomba"/>
+   </properties>
+  </tile>
+  <tile id="601">
+   <properties>
+    <property name="type" value="coin"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="190" height="48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2cSW7UQBSGq1uCDMxhUFZZABnEeASaJIw7toikA5wCJIZTwAKQgCvAEsFJwi2YhcQrxU+8Lj2XXdXtodz/J/3qtmV3nqs+l6sdJ8YAAAAAAAAAAAAAAAAAAAAAAAAAAADQXl5QXjZdBEiCpaYLmCAfKB+bLgK0gjnKfJYDDddSNV32/m5/9L27rK2fZjYom1muNVxL1XTVe+l1yCsox52ItIkuey/HcngfT5v9jaXL3se8gulgmrzH/B4wXfUeAB/wHkwj8B50nUOUw5QjYl1XvJf3bzBnB5JzlPOUC2JdGe+vUAYV1dQU/SxAZ61DjaN5v5zFxz3KVdM990PpkAq57FDuK3nQYE3jonlfBuv9NmWr5Pbfe8b86I2umyVp5ijzLZVnx7Szf+u+1j6hPFXyTNm2zJjZBmK8t+3+yIR5f5zcPuH4vUzLK5TVirwv44dvbsP9rfVvDL55QlET8LFw22+Z0eOr4lyQz6TJ2OfTHprJtUsThHrP7T404d7/dMb8dVq3QdmswHtZp3RmULAf9zX37SS8P0ZZEInBXl8fm71jsq/rZrT9t7P1g3EKdVihrCpZozw3o+1S1IXuNSD0miCfjdf6cclJHrJ/j5ry83vb/kMT5/1JZczX0OZEobAn7AfXW+QG9zX37TjeX6JcNqPOS+9tU8zmRGKvE3x9HTqvPO5r11/ts8rA9/jc2Ht+B43uvQ/Np6L5kPs3IPJeC/ftIFt2nXe9l8uyfy8a//0cWYPrfdkxxnp/Shnz87Ytc3744O8fsk7XDc0zfu7WPnP7hvKK8lr5fHfOkue4ln2U/TVmxtNOWhvcoNxUcotyXbSN1i4uy8bvPa+37SnrcB3kZfcc15zncB/Jc0H27+3smNyfoS273rNbXLuGHb9/9fa8d8d8dx/edhzv6/YqNKcpZ2rM2ZraaMbz+e6516Y+4traVBMAdeEb7wHoKq7n72je8Z7yrSB2u7djfh8FoClc7z+Ry18oC31/PmfbAZAisfMazIdAqiz2//tr34eE9/uNMR8khvU39v9G8X7wHqTG4gSeGYD3IDXgPZhGYr3fJde/ZvkD70FixHi/m7kuA0BKhHqvOQ/vQWqEeJ/nPLwHqVHWe5/z8B6kRhnvi5yH9yA1/vbCf0+rBQAAAKiafwFhA0CAjgAA
+  </data>
+ </layer>
+</map>

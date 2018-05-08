@@ -1,0 +1,456 @@
+/* === STEEL THEME =========================================== */
+#schemePreview {
+	background-color: #A6A6A7;
+}
+
+a,
+.blockGroups .itemHead,
+.timediv ul li a {
+    color: #1d1d1d;
+    border-bottom-color: #333;
+}
+
+a:active {
+    border: none;
+    outline: none;
+}
+
+/* BODY
+   ================================================== */
+
+/* @branding -- do not remove */
+
+#contentFrame,
+#schemePreview,
+/* === */
+#globalNavPageContentArea {
+    background: #1d1d1d url(images/proedgrayBG.png) repeat;
+    background-attachment: fixed;
+}
+.breadcrumbs,
+body.wizardBody .containerWizard,
+.paneTabs {
+    background-color: #a9a9a9;
+}
+
+.paneTabs .active a:before {
+    border-bottom-color: #B6BF89
+}
+
+.paneTabs .active a:after {
+    border-bottom-color: #E9EDD7
+}
+
+.paneTabs ul li a,
+.paneTabs .external a,
+.paneTabs .personal a {
+    border-color: #B6BF89
+}
+
+.breadcrumbs,
+.paneTabs {
+    border-color: #858585;
+    background-color: #a6a6a7;
+}
+
+/* BREADCRUMBS
+   ================================================== */
+.breadcrumbs .path a {
+    color: #e6e7e8; 
+}
+
+.breadcrumbs .path a:hover {
+    color: #d6d6d6;
+}
+
+.path li, .simplePath li {
+    color: #eee;
+}
+
+.path .root a:before,
+.simplePath .root a:before {
+    color: #e6e7e8;
+}
+
+.path .root, .simplePath .root, .theme-switch {
+	border-right: 1px solid #999999;
+}
+
+.breadcrumbs .switcherLabel {
+    color: #444444;
+}
+
+/* PANE TABS
+   ================================================== */
+
+/* Idle */
+
+
+
+
+/* CONTENT PANE
+   ================================================== */
+
+.contentBox,
+.portal .contentBox {
+    border-color: #aaa
+}
+
+/* @branding -- do not remove*/
+
+#contentArea,
+#schemePreviewBody {
+    background: #FFF;
+    border-color: #aaa;
+}
+
+.landingPageColumn .outcomesLanding li h3,
+.landingPageColumn p {
+    border-color: #C0CDB9;
+    color: #333;
+}
+
+.collapsible {
+    background-color: #e9e6e6;
+}
+
+/* PAGE HEADER
+   ================================================== */
+
+/* @branding -- do not remove*/
+
+#pageHeader,
+#schemePreviewHead {
+    background-color: #e5e5e5;
+}
+
+.pageTitle {
+
+}
+
+/* CONTROL ELEMENTS
+   ================================================== */
+
+/* Action Bars */
+
+.actionBar,
+.actionBarMicro,
+/*Side navigation single controls ("Unenroll" etc.)*/
+.singleControl,
+.navPalette .discover {
+    background-color: #5e5e5e;
+    border-color: #b3b3b3;
+}
+
+.mainButton a,
+.secondaryButton a,
+	/*Login page control links*/
+#loginHeader ul li a,
+#loginLang h2 a {
+    border-color:;
+   	border-color:;
+}
+
+/* Action bar main and secondary button links */
+.mainButton > a,
+.secondaryButton > a,
+.mainButton h2 > a,
+.secondaryButton h2 > a  {
+    background: -moz-linear-gradient(center top , #717171 0%, #313131 100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#717171), to(#313131));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#313131";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#313131);
+    border-color: #414141;
+    text-shadow: none;
+    color:#ececec;
+}
+
+/* Hover and focus */
+
+/* Action bar links */
+
+.actionBarMicro .active > a:after,
+a.liveAreaTab:after,
+.nav .sub h2 a:hover:after,
+.nav .sub.mainButton:hover h2 a:after,
+#loginLang h2:hover:after,
+#loginLang:hover h2:after {
+    border-bottom-color: #f0f0f0
+}
+
+.mainButton > a:hover,
+.mainButton h2 > a:hover,
+li.mainButton:hover > a,
+li.mainButton:hover h2 > a,
+.secondaryButton h2 > a:hover, 
+.secondaryButton > a:hover,
+.actionBarMicro .active a,
+.actionBarMicro .active a:hover,
+.actionBarMicro .active a:focus,
+	/*Side nav single controls*/
+.singleControl a:hover,
+.singleControl a:focus,
+.discover a:hover,
+.discover a:focus,
+	/*Links in an "open" state*/
+.liveAreaTab,
+a.liveAreaTab,
+a.liveAreaTab:hover,
+a.liveAreaTab:focus,
+.actionBar ul li a.liveAreaTab:focus,
+.actionBar ul li.mainButton a.liveAreaTab,
+.actionBar ul li.secondaryButton a.liveAreaTab,
+.panelTabs li.active a.edit,
+.panelTabs li.active a.edit:hover,
+.panelTabs li.active a.edit:focus
+	 {
+    background: -moz-linear-gradient(center top , #909090  0%, #909090  100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#909090), to(#909090));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#909090, endColorstr=#909090)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#909090, endColorstr=#909090);
+    border-color: #515151;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+li.secondaryButton:hover ul li a {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+
+.nav .sub ul,
+.cmdiv ul,
+.menumini ul,
+.quickAddPal,
+.keyboardAccess,
+.nav .sub ul li a,
+.cmdiv a,
+.menumini a,
+.paneTabs .nav .sub a,
+	/* tagging */
+span.currentTags,
+	/* Inline editing elements */
+.liveArea,
+.liveArea-slim,
+.liveAreaTab,
+	/* Button is turned into liveArea tab when .liveaArea is displayed. */
+a.liveAreaTab,
+a.liveAreaTab:hover,
+a.liveAreaTab:focus,
+.previewArea,
+	/* Preview area (read-only version of live area) */
+.jumptopage,
+.panelTabs li.active a.edit,
+.panelTabs li.active a.edit:hover,
+.panelTabs li.active a.edit:focus,
+	/*Multi-column flyout*/ 
+.bcContent .flyout,
+	/*Overrides for the file hierarchy three*/
+ul.tree li a + img + a:focus,
+ul.tree li img + img + a:focus,
+div.treeContainer ul.tree li a.itemActive,
+#learningUnitToc ul.tree li a.itemActive,
+ul.tree li a.itemActive,
+	/* Menu borders. */
+.nav .sub ul,
+.cmdiv ul,
+.menumini ul,
+.quickAddPal,
+.keyboardAccess,
+.cmdiv,
+	/* contextual menu for tagging */
+span.currentTags,
+	/* Paging preference element */
+.rumble ul li.jumptopage,
+.rumble ul li.inventory_page.jumptopage,
+.rumble_top ul li.jumptopage,
+.rumble_top ul li.inventory_page.jumptopage,
+.inventory_paging input,
+.inventory_paging .currentPage,
+.jumptopage,
+.jumptopage input,
+	/* Close menu link */
+.cmdiv li.contextmenubar_top a,
+span.currentTags a.closeCloud,
+.cmdiv li.contextmenubar_top a:focus,
+.cmdiv li.contextmenubar_top a:hover,
+.currentTags a.closeCloud:hover,
+.currentTags a.closeCloud:focus
+{
+    background-color: #f0f0f0;
+    border-color: #888;
+}
+
+.cmdiv li.contextmenubar_top a,
+.cmdiv li.contextmenubar_top a:focus,
+.cmdiv li.contextmenubar_top a:hover,
+.currentTags a.closeCloud:hover,
+.currentTags a.closeCloud:focus {
+    background-color: #f0f0f0!important
+}
+
+/*Tab indicators*/
+.portlet .containerTabs .active a:after {
+    border-bottom-color: #EEEEEE
+}
+.mainButton a.disabled, .mainButton a.disabled:hover, .secondaryButton a.disabled:hover, .mainButton a.disabled:focus, .secondaryButton a.disabled:focus {
+	background: none;
+    -ms-filter: none;
+    filter: none;	
+	color: #fff;
+	text-shadow: none; 
+}
+
+/* BUTTONS
+   ================================================== */
+
+	/* @branding -- do not remove */
+#primaryButton,
+	/*===*/
+input[type="submit"].submit,
+.button-1,
+.button-1-img {
+
+    background: -moz-linear-gradient(center top , #6FB8FC 0%, #217dd4 100%) #217dd4;
+    background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#6FB8FC), to(#217dd4));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#6FB8FC, endColorstr=#217dd4";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#6FB8FC, endColorstr=#217dd4);
+    color: #F0F0F0;
+    border-color: #217dd4;
+    background-clip: padding-box;
+}
+
+input[type="submit"].submit:hover,
+.button-1:hover,
+.button-1:focus,
+.button-1-img:hover,
+.button-1-img:focus {
+    background: -moz-linear-gradient(center top , #217dd4 0%, #217dd4 100%) #217dd4;
+    background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#217dd4), to(#217dd4));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#217dd4, endColorstr=#217dd4";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#217dd4, endColorstr=#217dd4);
+    color: #FFFFFF;
+    border-color: #217dd4;
+}
+
+
+/* PORTAL MODULES
+   ================================================== */
+
+	/* @branding -- do not remove */
+#moduleBorder,
+#moduleBody,
+	/*===*/
+.portlet {
+    border-color: #d9d9d9;
+    background-color: #e6e7e8;
+}
+
+.portlet div.scroll_div {
+    background-color: #EEE;
+    border-color: #CCC;
+}
+
+.reorderableModule:hover {
+	border-color: #222;
+}
+
+.portlet .reorder {
+	border-color: #222;
+}
+
+/* Portlet Title */
+
+	/* @branding -- do not remove */
+#moduleTitle,
+	/*===*/
+.portlet h2 {
+    background-color: #bdbcbc;
+    color: #151525;
+    text-shadow: none;
+}
+
+/*  Portlet Title on hover */
+.portlet h2.dragHandle:hover {
+    color: #777;
+    background-color: #E9E6E6;
+}
+
+
+
+
+/* LOGIN PAGE
+   ================================================== */
+
+#loginHeader ul li,
+#loginLang h2 {
+}
+
+#loginBox li label,
+.portlet #loginBoxFull li label {
+    color: #666
+}
+
+div.loginBack b {
+    background-color: #fff
+}
+
+#loginBox li input[type="text"],
+#loginBox li input[type="password"] {
+    border-color: #888
+}
+
+#loginBox li input[type="text"]:hover,
+#loginBox li input[type="password"]:hover,
+#loginBox li input[type="text"]:focus,
+#loginBox li input[type="password"]:focus {
+    border-color: #706b5b;
+    color: #000;
+    background: #FFF;
+}
+
+#loginOptions ul li a,
+#loginOptions ul li.subOption a,
+.forgot a {
+    border-bottom-color: #706b5b
+}
+
+
+/*Login page top controls links */
+#loginHeader ul li a:hover,
+#loginHeader ul li a:focus,
+#loginLang h2:hover {
+	
+}
+
+#loginHeader ul li:hover,
+#loginLang h2:hover {
+}
+
+
+/* INVENTORY TABLES
+   ================================================== */
+
+/* Color for zebra stripes */
+table.inventory tbody tr.gray td,
+table.inventory tbody tr.gray th {
+    background-color: #f0f0f0
+}
+
+
+/* REORDER HANDLES
+   ================================================== */
+
+.reorder,
+.item .reorder {
+    background-color: #ededed
+}
+
+
+/* DATA COLLECTION PAGES
+   ================================================== */
+
+.steptitle,
+.submittitle {
+    color: #a9a9a9;
+}
+/* STONE THEME */

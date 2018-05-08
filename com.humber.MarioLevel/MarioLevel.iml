@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="D:\Documents\Semester 3\Game 204\com.humber.MarioLevel\Dependencies\Slick\lib\lwjgl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Dependencies/Slick/lib/lwjgl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="D:\Documents\Semester 3\Game 204\com.humber.MarioLevel\Dependencies\Slick\lib\lwjgl_util.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Dependencies/Slick/lib/lwjgl_util.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="D:\Documents\Semester 3\Game 204\com.humber.MarioLevel\Dependencies\Slick\lib\slick.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Dependencies/Slick/lib/slick.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="D:\Documents\Semester 3\Game 204\com.humber.MarioLevel\Dependencies\jbox2d-master\jbox2d-master\jbox2d-library-2.1.2.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Dependencies/jbox2d-master/jbox2d-master/jbox2d-library-2.1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../slf4j-1.7.21/slf4j-api-1.7.21.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../slf4j-1.7.21/slf4j-jdk14-1.7.21.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="D:\Documents\Semester 3\Game 204\com.humber.MarioLevel\Dependencies\mysql-connector-java-5.1.40\mysql-connector-java-5.1.40-bin.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Dependencies/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
